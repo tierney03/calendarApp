@@ -15,11 +15,32 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: lightblue;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  /* align-items: center;
+  justify-content: center; */
 }
+
+.container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  width: 80%;
+  height: 80%;
+
+}
+
+/* .col {
+  border: 2px black solid;
+  width: 50px;
+}
+
+.col-5 {
+  width: 500px;
+} */
 
 .description{
   white-space: pre-wrap;
@@ -33,7 +54,10 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  border-radius: 0.5em;
 }
 
 .hour {
