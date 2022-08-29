@@ -24,13 +24,21 @@ textarea{
 }
 
 .container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border: 2px solid black;
   width: 80%;
   height: 80%;
+  margin-bottom: 15px;
 
+}
+
+#currentDay {
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 /* .col {
@@ -52,8 +60,10 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+  display: flex;
+  justify-content: space-between;
   height: 80px;
+  width: 100%;
   border: 1px solid black;
   padding: 0.5em;
   margin-bottom: 0.4em;
