@@ -4,18 +4,19 @@ body {
   line-height: 1;
 }
 
-textarea{
+/* textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-}
+} */
 
+/* For the main head of the page*/
 .jumbotron {
   text-align: center;
-  background-color: lightblue;
+  background-color: rgb(86, 190, 224);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -23,6 +24,13 @@ textarea{
   justify-content: center; */
 }
 
+#currentDay {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Encompassing the calendar portion*/
 .container {
   display: flex;
   flex-direction: column;
@@ -32,41 +40,35 @@ textarea{
   width: 80%;
   height: 80%;
   margin-bottom: 15px;
-
+  padding-top: 10px;
 }
 
-#currentDay {
-  height: 50px;
-  display: flex;
-  justify-content: center;
+.textarea {
+  width: 800px;
+  height: 60px;
+  font-size: 15px;
 }
 
-/* .col {
-  border: 2px black solid;
-  width: 50px;
-}
-
-.col-5 {
-  width: 500px;
-} */
-
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
 
 .row {
+  font-size: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   height: 80px;
   width: 100%;
   border: 1px solid black;
   padding: 0.5em;
   margin-bottom: 0.4em;
+  /* margin-top: 0.4em; */
   border-radius: 0.5em;
 }
 
@@ -95,7 +97,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #9b73f4;
   color: white;
 }
 
